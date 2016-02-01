@@ -1,0 +1,172 @@
+﻿빌드 시작: 2015-11-30 오전 8:30:35
+     1>2 노드의 "d:\Users\Admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Ray-Sphere Intersection\Ray-Sphere Intersection.vcxproj" 프로젝트(Build 대상)입니다.
+     1>AddCudaCompileDeps:
+         F:\Program Files (x86)\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /DFL_DLL /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "d:\Users\Admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Ray-Sphere Intersection\Ray0.cu" 
+       CudaBuild:
+         Compiling CUDA source file Ray0.cu...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmpb3585923320243db90426ea11075365d.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "F:\Program Files (x86)\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -DFL_DLL -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\Ray0.cu.obj "d:\Users\Admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Ray-Sphere Intersection\Ray0.cu"
+         
+         d:\Users\Admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Ray-Sphere Intersection>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "F:\Program Files (x86)\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -DFL_DLL -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\Ray0.cu.obj "d:\Users\Admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Ray-Sphere Intersection\Ray0.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(62): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(67): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(67): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(67): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(68): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(82): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(83): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(81): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(95): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(96): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(94): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(114): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(133): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(155): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(189): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(208): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(354): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(356): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(356): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(371): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(371): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(387): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(388): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(389): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(389): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(407): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(407): warning : initial value of reference to non-const must be an lvalue
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(910): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(1903): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(2843): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(3779): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(4721): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(5723): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(6682): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(7610): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(8543): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(9413): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(10391): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(11435): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(62): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(67): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(67): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(67): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(68): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(82): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(83): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(81): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(95): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(96): warning : initial value of reference to non-const must be an lvalue
+     1>d:\users\admin\documents\visual studio 2013\projects\ray-sphere intersection\ray-sphere intersection\Struct.h(94): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(114): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(133): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(155): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(189): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(208): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(354): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(356): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(356): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(371): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(371): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(377): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(387): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(388): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(389): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(389): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(407): warning : initial value of reference to non-const must be an lvalue
+     1>d:/Users/Admin/documents/visual studio 2013/Projects/Ray-Sphere Intersection/Ray-Sphere Intersection/Ray0.cu(407): warning : initial value of reference to non-const must be an lvalue
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Ray0.cu
+       Link:
+         F:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\users\admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Debug\Ray-Sphere Intersection.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" /LIBPATH:../Lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib fltkdll.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\users\admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Debug\Ray-Sphere Intersection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\users\admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Debug\Ray-Sphere Intersection.lib" /MACHINE:X86 Debug\Ray0.cu.obj
+         Debug\VecMath.cu.obj
+         Debug\Ray0_main.obj
+         Ray-Sphere Intersection.vcxproj -> d:\users\admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Debug\Ray-Sphere Intersection.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "d:\users\admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "d:\users\admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "d:\users\admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2개 파일이 복사되었습니다.
+     1>"d:\Users\Admin\documents\visual studio 2013\Projects\Ray-Sphere Intersection\Ray-Sphere Intersection\Ray-Sphere Intersection.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.17

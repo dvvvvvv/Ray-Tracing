@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="Ray0.cu" />
+    <CudaCompile Include="VecMath.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ray0_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ray0.h" />
+    <ClInclude Include="VecMath.h" />
+    <ClInclude Include="Struct.h" />
+  </ItemGroup>
+</Project>
